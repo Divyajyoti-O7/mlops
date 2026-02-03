@@ -30,7 +30,7 @@ jobs:
 
       - name: Build backend Docker image
         run: |
-          docker build -f deployment/Dockerfile.backend -t customer-backend .
+          docker build -f deploy/Dockerfile.backend -t customer-backend .
 
       - name: Build frontend Docker image
         run: |
