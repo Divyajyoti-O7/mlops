@@ -1,3 +1,6 @@
+import os
+os.makedirs("mlruns", exist_ok=True)
+
 import pandas as pd
 import numpy as np
 import mlflow
