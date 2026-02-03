@@ -5,6 +5,6 @@ with open("mlruns/drift_report.txt", "r") as f:
 
 if "RETRAIN REQUIRED" in report:
     print("Retraining triggered due to drift...")
-    os.system("python src/train.py")
+    os.system("python train.py")
 else:
     print("No drift detected. Retraining skipped.")
