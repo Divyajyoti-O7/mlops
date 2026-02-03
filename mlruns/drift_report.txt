@@ -1,0 +1,10 @@
+CUSTOMER SEGMENT DRIFT REPORT
+==============================
+
+Age: DRIFT DETECTED
+Annual Income (k$): OK
+Spending Score (1-100): DRIFT DETECTED
+
+Cluster Distance Drift: YES
+
+FINAL DECISION: RETRAIN REQUIRED

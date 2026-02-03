@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  backend:
+    image: customer-backend
+    ports:
+      - "8001:8001"
+
+  frontend:
+    image: customer-frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
