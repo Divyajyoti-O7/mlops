@@ -1,3 +1,7 @@
+import os
+os.makedirs("artifacts/model", exist_ok=True)
+os.makedirs("mlruns", exist_ok=True)
+
 import pandas as pd
 import numpy as np
 import joblib
